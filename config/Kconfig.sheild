@@ -1,0 +1,3 @@
+
+config SHIELD_TWINTEST
+    def_bool $(sheilds_list_contains, TwinTest)
