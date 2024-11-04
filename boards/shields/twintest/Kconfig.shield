@@ -1,2 +1,2 @@
 config SHIELD_MY_KEYBOARD
-    def_bool $(shields_list_contains,twintest)
+    def_bool $(shields_list_contains,TwinTest)
