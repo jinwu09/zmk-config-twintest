@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.75,
-          "height": 1.75,
-          "width": 1.75
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,21 +51,8 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        "hole_clearance|129717446|116310029|d59ac8a9-f50b-422e-ae45-5751f3a48f8b|eceab4ee-4cf8-4cf1-9c6b-25661a4dc40e",
-        "hole_clearance|129717446|135360029|dc8edd6b-657a-4877-9166-2403bb868cda|3791c0bd-3131-431e-9f2b-dd12a4dd2c77",
-        "hole_clearance|129717446|97260029|208ffa43-a5be-4343-b8d8-47fa1b1bee6d|aa1faa53-e393-41d1-af98-cd706a92f312",
-        "hole_clearance|148767446|116310029|ea3928b1-ca8c-4955-ac99-922bead07867|76e1d330-378f-4119-a00d-421415808324",
-        "hole_clearance|148767446|135360029|47b0ba39-78c1-4174-affb-50885bc68550|3e993a27-e4cc-4dcd-ba7e-359da3bca62b",
-        "hole_clearance|148767446|97260029|4f664907-0f9a-4787-b2f9-c63a29daf766|dd734510-a767-461f-a93c-409f11200e0a"
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -86,6 +73,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -134,9 +122,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -183,12 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.3,
-        0.4
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -215,12 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -453,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ScottoModules.kicad_pro",
+    "filename": "twintest.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -499,6 +477,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -548,11 +527,35 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -597,7 +600,7 @@
   },
   "sheets": [
     [
-      "92054fa3-5ad0-458e-bd73-acbcf8d11243",
+      "6b4f72a0-e5f8-4534-90f7-b036ce6332f9",
       "Root"
     ]
   ],
