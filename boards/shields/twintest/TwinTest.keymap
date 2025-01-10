@@ -14,12 +14,12 @@
 
         default_layer {
             bindings = <
-                &kp ESC     &kp N1      &kp N2     &out OUT_USB &out OUT_BLE
-                &kp Q       &kp W       &kp E      &kp R     &kp T
-                &kp A       &kp S       &kp D      &kp F     &kp G
-                &kp Z       &kp X       &kp C      &kp V     &kp B
-                                        &kp LWIN   &kp LALT  &kp SPACE
+                &kp ESC     &kp N1      &kp N2     &kp N3    &out OUT_USB   &out OUT_BLE
+                &kp TAB     &kp Q       &kp W       &kp E      &kp R        &kp T
+                &kp LSHIFT  &kp A       &kp S       &kp D      &kp F        &kp G
+                &kp LCTRL   &kp Z       &kp X       &kp C      &kp V        &kp B
+                                                    &kp LWIN   &kp LALT     &kp SPACE
             >;
         };
     };
-};
+};22qqqqwwwwrrrrrrr2222222
