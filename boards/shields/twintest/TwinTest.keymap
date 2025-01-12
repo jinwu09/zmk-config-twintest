@@ -16,8 +16,8 @@
             bindings = <
                 &kp ESC     &kp N1      &kp N2     &kp N3    &out OUT_USB   &out OUT_BLE
                 &kp TAB     &kp Q       &kp W       &kp E      &kp R        &kp T
-                &kp LSHIFT  &kp A       &kp S       &kp D      &kp F        &kp G
-                &kp LWIN    &kp Z       &kp X       &kp C      &kp V        &kp B
+                &kp LWIN    &kp A       &kp S       &kp D      &kp F        &kp G
+                &kp LSHIFT  &kp Z       &kp X       &kp C      &kp V        &kp B
                 &kp LCTRL   &kp Z       &kp X       &kp LCTRL   &kp SPACE   &kp LALT
 
 
