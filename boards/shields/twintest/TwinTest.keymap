@@ -18,7 +18,7 @@
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
                 &kp LWIN    &mt LWIN A  &mt LALT S  &mt LSHIFT D    &mt LCTL F      &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
-                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mt Layer_Handler
+                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo Layer_Handler
 
 
             >;
