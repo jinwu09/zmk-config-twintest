@@ -31,7 +31,7 @@
         
         gaming {
             bindings = <
-                &kp ESC     &kp N1      &kp N2      &kp N3          &mt F4 N4       &kp N5
+                &kp ESC     &kp N1      &kp N2      &kp N3          &<&alt_f4>       &kp N5
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
                 &kp LWIN    &kp A       &kp S       &kp D           &kp F           &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
@@ -47,6 +47,15 @@
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
                 &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       
             >;
+        };
+    };
+    macros {
+        alt_f4: alt_f4{
+            compatible = "zmk,behaviors-macro";
+            bindings = 
+                <&macro_press &kp LALT>,
+                <&macro_tap &kp N4>,
+                <&macro_release &kp LALT>
         };
     };
 
