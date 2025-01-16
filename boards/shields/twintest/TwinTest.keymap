@@ -35,7 +35,7 @@
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
                 &kp LWIN    &mt LWIN A  &mt LALT S  &mt LSHIFT D    &mt LCTL F      &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
-                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &kp LALT
+                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo HANDLER
             >;
         };
         
@@ -43,9 +43,9 @@
             bindings = <
                 &kp ESC     &kp N1      &kp N2      &kp N3          &mt F4 N4       &kp N5
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
-                &kp LWIN    &mt LWIN A  &mt LALT S  &mt LSHIFT D    &mt LCTL F      &kp G
+                &kp LWIN    &kp A       &kp S       &kp D           &kp F           &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
-                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &kp LALT
+                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo HANDLER
             >;
         };
     };
