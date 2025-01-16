@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
-#define HANDLER 1
-#define GAMING 2
+#define GAMING 1
+#define HANDLER 2
 
 / {
     keymap {
