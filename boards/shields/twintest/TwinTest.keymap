@@ -47,7 +47,7 @@
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
                 &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &kp LALT
             >;
-        }:
+        };
     };
 
 };
