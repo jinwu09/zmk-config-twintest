@@ -8,6 +8,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
+
+#define DEFAULT 0
+#define HANDLER 1
+#define GAMING 2
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -18,7 +23,7 @@
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
                 &kp LWIN    &mt LWIN A  &mt LALT S  &mt LSHIFT D    &mt LCTL F      &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
-                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo Layer_Handler
+                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo HANDLER
 
 
             >;
@@ -26,7 +31,7 @@
 
         Layer_Handler {
             bindings = <
-                &kp ESC     &to default_layer      &to gaming      &kp N3          &mt F4 N4       &kp N5
+                &kp ESC     &to DEFAULT      &to GAMING      &kp N3          &mt F4 N4       &kp N5
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
                 &kp LWIN    &mt LWIN A  &mt LALT S  &mt LSHIFT D    &mt LCTL F      &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
