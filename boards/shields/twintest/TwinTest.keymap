@@ -45,7 +45,7 @@
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
                 &kp LWIN    &kp A       &kp S       &kp D           &kp F           &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
-                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo HANDLER
+                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &kp SPACE
             >;
         };
     };
