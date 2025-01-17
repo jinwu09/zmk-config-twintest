@@ -14,6 +14,17 @@
 #define HANDLER 2
 
 / {
+    macros {
+        alt_f4: alt_f4 {
+            compatible = "zmk,behaviors-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_press &kp LALT>,
+                <&macro_tap &kp N4>,
+                <&macro_release &kp LALT>;
+        };
+    };
+    
     keymap {
         compatible = "zmk,keymap";
 
@@ -41,22 +52,12 @@
 
         Layer_Handler {
             bindings = <
-                &kp ESC     &to DEFAULT      &to GAMING      &kp N3 &alt_f4         &kp N5
+                &kp ESC     &to DEFAULT &to GAMING  &kp N3          &alt_f4         &kp N5
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
                 &kp LWIN    &mt LWIN A  &mt LALT S  &mt LSHIFT D    &mt LCTL F      &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
                 &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       
             >;
-        };
-    };
-    macros {
-        alt_f4: alt_f4 {
-            compatible = "zmk,behaviors-macro";
-            #binding-cells = <0>;
-            bindings = 
-                <&macro_press &kp LALT>,
-                <&macro_tap &kp N4>,
-                <&macro_release &kp LALT>;
         };
     };
 
