@@ -14,16 +14,6 @@
 #define HANDLER 2
 
 / {
-    macros {
-        alt_f4: alt_f4 {
-            compatible = "zmk,behaviors-macro";
-            #binding-cells = <0>;
-            bindings = 
-                <&macro_press &kp LALT>,
-                <&macro_tap &kp N4>,
-                <&macro_release &kp LALT>;
-        };
-    };
     
     keymap {
         compatible = "zmk,keymap";
@@ -61,4 +51,14 @@
         };
     };
 
+    macros {
+        alt_f4: alt_f4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_press &kp LALT>,
+                <&macro_tap &kp N4>,
+                <&macro_release &kp LALT>;
+        };
+    };
 };
