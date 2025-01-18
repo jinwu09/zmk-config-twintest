@@ -36,7 +36,7 @@
             bindings = <
                 &kp ESC     &kp N1      &kp N2      &kp N3          &mt F4 N4       &kp N5
                 &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
-                &kp LWIN    &pht LWIN A &pht LALT S &pht LSHIFT D   &pht LCTL F     &pht G
+                &kp LWIN    &pht LWIN A &pht LALT S &pht LSHIFT D   &pht LCTL F     &kp G
                 &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
                 &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo HANDLER
 
