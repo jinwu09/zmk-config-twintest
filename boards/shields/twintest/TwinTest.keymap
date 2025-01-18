@@ -14,7 +14,7 @@
 #define HANDLER 2
 
 &mt {
-    tapping-term-ms = <400>
+    tapping-term-ms = <400>;
 };
 / {
     
