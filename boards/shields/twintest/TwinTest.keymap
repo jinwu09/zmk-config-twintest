@@ -12,7 +12,7 @@
 #define DEFAULT 0
 #define GAMING 1
 #define HANDLER 2
-
+#define CONNECTION 3
 &mt {
     tapping-term-ms = <400>;
 };
@@ -33,11 +33,11 @@
 
         default_layer {
             bindings = <
-                &kp ESC     &kp N1      &kp N2      &kp N3          &mt F4 N4       &kp N5
-                &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
-                &kp LWIN    &pht LWIN A &pht LALT S &pht LSHIFT D   &pht LCTL F     &kp G
-                &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
-                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo HANDLER
+                &kp ESC         &kp N1          &kp N2          &kp N3              &mt F4 N4           &kp N5
+                &kp TAB         &kp Q           &kp W           &kp E               &kp R               &kp T
+                &kp LWIN        &pht LWIN A     &pht LALT S     &pht LSHIFT D       &pht LCTL F         &kp G
+                &kp LSHIFT      &kp Z           &kp X           &kp C               &kp V               &kp B
+                &kp LCTRL       &kp Z           &kp X           &kp LCTRL           &kp SPACE           &mo HANDLER
 
 
             >;
@@ -45,21 +45,31 @@
         
         gaming {
             bindings = <
-                &kp ESC     &kp N1      &kp N2      &kp N3          &mt F4 N4       &kp N5
-                &kp TAB     &kp Q       &kp W       &kp E           &kp R           &kp T
-                &kp LWIN    &kp A       &kp S       &kp D           &kp F           &kp G
-                &kp LSHIFT  &kp Z       &kp X       &kp C           &kp V           &kp B
-                &kp LCTRL   &kp Z       &kp X       &kp LCTRL       &kp SPACE       &mo HANDLER
+                &kp ESC         &kp N1          &kp N2          &kp N3              &mt F4 N4           &kp N5
+                &kp TAB         &kp Q           &kp W           &kp E               &kp R               &kp T
+                &kp LWIN        &kp A           &kp S           &kp D               &kp F               &kp G
+                &kp LSHIFT      &kp Z           &kp X           &kp C               &kp V               &kp B
+                &kp LCTRL       &kp Z           &kp X           &kp LCTRL           &kp SPACE           &mo HANDLER
             >;
         };
 
         Layer_Handler {
             bindings = <
-                &kp ESC         &to DEFAULT     &to GAMING      &kp N3          &alt_f4         &kp N5
-                &kp TAB         &kp Q           &kp UP_ARROW    &kp E           &kp R           &kp T
-                &kp CAPSLOCK    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW &kp F           &kp G
-                &kp LSHIFT      &kp Z           &kp X           &kp C           &kp V           &kp B
-                &kp LCTRL       &kp Z           &kp X           &kp LCTRL       &kp SPACE       
+                &kp ESC         &to DEFAULT     &to GAMING      &kp N3              &alt_f4             &kp N5
+                &kp TAB         &kp Q           &kp UP_ARROW    &kp E               &kp R               &kp T
+                &kp CAPSLOCK    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp F               &kp G
+                &mo CONNECTION  &kp Z           &kp X           &kp C               &kp V               &kp B
+                &kp LCTRL       &kp Z           &kp X           &kp LCTRL           &kp SPACE           &none
+            >;
+        };
+
+        Connection {
+            bindings = <
+                &none           &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3        &bt BT_SEL 4        &bt BT_SEL 5 
+                &none           &out OUT_BLE    &out OUT_USB    &none               &none               &none 
+                &none           &none           &none           &none               &none               &none 
+                &none           &none           &none           &bt BT_CLR          &none               &none 
+                &none           &none           &none           &none               &none               &none 
             >;
         };
     };
