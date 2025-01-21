@@ -4,4 +4,6 @@ if SHIELD_TWINTEST
 config ZMK_KEYBOARD_NAME
     default "TwinTest"
 
+config CONFIG_BT
+    default true
 endif
