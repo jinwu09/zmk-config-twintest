@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,Battery,1,Battery_Cell,
+"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D2, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D3, D4, D5, D6, D7, D8, D9",Diode_DO-35,29,Diode,
+J1,PinHeader_1x06_P2.54mm_Vertical,1,trackball,
+"S1_4, S1_3, S1_2, S1, S10_2, S10, S11_4, S11_3, S11_2, S11, S12_2, S12, S17_2, S17, S18_2, S18, S19_2, S19, S20_2, S20, S25_2, S25, S26_2, S26, S27_2, S27, S28_2, S28, S3_2, S3, S33_2, S33, S34_2, S34, S35_2, S35, S36_2, S36, S41_2, S41, S42_2, S42, S43_2, S43, S44_2, S44, S49_2, S49, S5_2, S5, S51_2, S51, S53_2, S53, S55_2, S55, S7_2, S7, S9_2, S9",Choc_V1V2,60,Keyswitch,
+"S13_2, S13, S14_2, S14, S15_4, S15_3, S15_2, S15, S16_2, S16, S2_4, S2_3, S2_2, S2, S21_2, S21, S22_2, S22, S23_2, S23, S24_2, S24, S29_2, S29, S30_2, S30, S31_2, S31, S32_2, S32, S37_2, S37, S38_2, S38, S39_2, S39, S4_2, S4, S40_2, S40, S45_2, S45, S46_2, S46, S47_2, S47, S48_2, S48, S50_2, S50, S52_2, S52, S54_2, S54, S56_2, S56, S6_2, S6, S8_2, S8",MX_PCB_1.00u,60,Keyswitch,
+"SW1_2, SW1",Switch_MSK12C02,2,Switch,
+SW3,RotaryEncoder_Alps_EC11E_Vertical_H20mm,1,RotaryEncoder_Switch_MP,
+SW4,SW_PUSH_6mm,1,SW_Push,
+"U1_2, U1",Nice_Nano_V2,2,Nice_Nano_V2,
