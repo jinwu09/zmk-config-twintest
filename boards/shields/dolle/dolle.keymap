@@ -37,7 +37,7 @@
                 &kp TAB         &kp Q           &kp W           &kp E               &kp R               &kp T
                 &kp LWIN        &pht LWIN A     &pht LALT S     &pht LSHIFT D       &pht LCTL F         &kp G
                 &kp LSHIFT      &kp Z           &kp X           &kp C               &kp V               &kp B
-                &kp LCTRL       &kp Z           &kp X           &kp LCTRL           &kp SPACE           &mo HANDLER
+                                                                &kp X               &kp LCTRL           &kp SPACE           &mo HANDLER
 
 
             >;
@@ -49,7 +49,7 @@
                 &kp TAB         &kp Q           &kp W           &kp E               &kp R               &kp T
                 &kp LWIN        &kp A           &kp S           &kp D               &kp F               &kp G
                 &kp LSHIFT      &kp Z           &kp X           &kp C               &kp V               &kp B
-                &kp LCTRL       &kp Z           &kp X           &kp LCTRL           &kp SPACE           &mo HANDLER
+                                                                &kp X               &kp LCTRL           &kp SPACE           &mo HANDLER
             >;
         };
 
@@ -59,7 +59,7 @@
                 &kp TAB         &kp Q           &kp UP_ARROW    &kp E               &kp R               &kp T
                 &kp CAPSLOCK    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp F               &kp G
                 &mo CONNECTION  &kp Z           &kp X           &kp C               &kp V               &kp B
-                &kp LCTRL       &kp Z           &kp X           &kp LCTRL           &kp SPACE           &trans
+                                                                &kp X               &kp LCTRL           &kp SPACE           &trans
             >;
         };
 
@@ -69,7 +69,7 @@
                 &none           &out OUT_BLE    &out OUT_USB    &none               &none               &none 
                 &none           &to DEFAULT     &to GAMING      &none               &none               &none 
                 &trans          &none           &none           &bt BT_CLR          &none               &none 
-                &none           &none           &none           &none               &none               &trans 
+                                                                &none               &none               &none               &trans 
             >; 
         };
     };
