@@ -1,2 +1,7 @@
-config SHIELD_DOLLE
-    def_bool $(shields_list_contains,Dolle)
+# No whitespace after the comma or in your part name!
+config SHIELD_DOLLE_LEFT
+    def_bool $(shields_list_contains,dolle_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_DOLLE_RIGHT
+    def_bool $(shields_list_contains,dolle_right)

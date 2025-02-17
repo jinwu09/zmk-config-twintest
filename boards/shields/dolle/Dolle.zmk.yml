@@ -1,0 +1,12 @@
+file_format: "1"
+id: dolle
+name: Dolle
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [nice_nano_v2]
+exposes: []
+features:
+  - keys
+siblings:
+  - dolle_left
+  - dolle_right
