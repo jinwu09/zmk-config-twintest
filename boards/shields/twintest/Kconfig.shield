@@ -1,2 +1,0 @@
-config SHIELD_TWINTEST
-    def_bool $(shields_list_contains,TwinTest)
