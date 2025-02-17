@@ -5,7 +5,7 @@
         zmk,physical-layout = &physical_layout0;
         // Other chosen items
     }; 
-    
+
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         // label = "default_kscan";
@@ -18,7 +18,7 @@
                     <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
-    }
+    };
 
     default_transform: matrix_transform{
         compatible = "zmk,matrix-transform";
