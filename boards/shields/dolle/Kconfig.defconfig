@@ -1,5 +1,8 @@
 if SHIELD_DOLLE_LEFT
 
+config ZMK_POINTING
+    default y
+    
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "Dolle"
