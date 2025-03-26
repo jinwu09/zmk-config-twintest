@@ -5,12 +5,11 @@ config ZMK_POINTING
     
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Dolles"
+    default "Dolle"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
-endif
+ endif
 
 if SHIELD_DOLLE_LEFT || SHIELD_DOLLE_RIGHT
 
