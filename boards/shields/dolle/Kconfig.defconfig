@@ -9,8 +9,7 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
-endif
+ endif
 
 if SHIELD_DOLLE_LEFT || SHIELD_DOLLE_RIGHT
 
