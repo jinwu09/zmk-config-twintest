@@ -105,8 +105,7 @@
             #binding-cells = <1>;
             bindings =
                 <&macro_param_1to1>,
-                // <&macro_tap &bt BT_SEL MACRO_PLACEHOLDER>,
-                // <&macro_tap &out OUT_BLE>;
-        };
+                <&macro_tap &bt BT_SEL MACRO_PLACEHOLDER>,
+                <&macro_tap &out OUT_BLE>;
     };
 };
