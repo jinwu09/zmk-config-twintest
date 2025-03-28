@@ -101,8 +101,8 @@
                 <&macro_release &kp MACRO_PLACEHOLDER>;
         };
         btsw: btsw {
-            compatible = "zmk,behabior-macro-one-param";
-            #binding-cells - <1>;
+            compatible = "zmk,behabior-macro-one-param"; 
+            #binding-cells = <1>;
             bindings =
                 <&macro_param_1to1>,
                 <&macro_press &bt BT_SEL MACRO_PLACEHOLDER>,
