@@ -73,8 +73,8 @@
             bindings = <
 &none           &bt_sw 0        &bt_sw 1        &bt_sw 2            &bt_sw 3            &bt_sw 4                                    &none           &none           &none           &none           &none           &none
 &none           &none           &out OUT_USB    &none               &none               &none                                       &none           &none           &none           &none           &none           &none
-&none           &to DEFAULT     &to GAMING      &none               &none               &none                                       &none           &none           &none           &none           &none           &none
-&trans          &none           &none           &bt BT_CLR          &none               &none                                       &none           &none           &none           &none           &none           &none
+&none           &to DEFAULT     &to GAMING      &bt BT_CLR          &none               &none                                       &none           &none           &none           &none           &none           &none
+&trans          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4                                &none           &none           &none           &none           &none           &none
                                                 &none               &none               &none           &trans          &none       &none           &none           &none 
             >; 
         };
