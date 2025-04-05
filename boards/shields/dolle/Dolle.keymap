@@ -19,6 +19,7 @@
 #define GAMING 1
 #define HANDLER 2
 #define CONNECTION 3
+#define SYMBOL 4
 &mt {
     tapping-term-ms = <400>;
 };
@@ -43,7 +44,7 @@
 &kp TAB         &kp Q           &kp W           &kp E               &kp R               &kp T                                       &kp Y           &kp U           &kp I           &kp O           &kp P           &kp EQUAL
 &kp CAPS        &pht LWIN A     &pht LALT S     &pht LSHIFT D       &pht LCTL F         &kp G                                       &kp H           &pht LCTL J     &pht LSHIFT K   &pht LALT L     &pht LWIN SEMI  &kp APOS
 &kp LSHIFT      &kp Z           &kp X           &kp C               &kp V               &kp B                                       &kp N           &kp M           &kp COMMA       &kp PERIOD      &kp SLASH       &kp ENTER
-                                                &kp LCTRL           &kp ESC             &kp SPACE       &mo HANDLER     &mo HANDLER &kp BACKSPACE   &none           &none 
+                                                &kp LCTRL           &kp ESC             &kp SPACE       &mo HANDLER     &mo HANDLER &kp BACKSPACE   &mo SYMBOL      &none 
 
 
             >;
@@ -55,7 +56,7 @@
 &kp TAB         &kp Q           &kp W           &kp E               &kp R               &kp T                                       &kp Y           &kp U           &kp I           &kp O            &kp P          &none
 &kp CAPS        &kp A           &kp S           &kp D               &kp F               &kp G                                       &kp H           &kp J           &kp K           &kp L            &kp COLON      &none
 &kp LSHIFT      &kp Z           &kp X           &kp C               &kp V               &kp B                                       &kp N           &kp M           &kp COMMA       &kp PERIOD       &kp SLASH      &kp ENTER
-                                                &kp LALT            &kp LCTRL           &kp SPACE       &mo HANDLER     &none       &kp BACKSPACE   &none           &none 
+                                                &kp LALT            &kp LCTRL           &kp SPACE       &mo HANDLER     &none       &kp BACKSPACE   &mo SYMBOL      &none 
             >;
         };
 
